@@ -34,9 +34,9 @@ function Map() {
 
       <ReactMapGL
         {...viewport}
-        mapboxApiAccessToken="pk.eyJ1Ijoiam91ZiIsImEiOiJja3NydHRxbGwwaXZ0MnBwbmltcmZ1NmM1In0.Y4S9nBOCRVlxW50Iq_0BFQ"
+        mapboxApiAccessToken={process.env.REACT_APP_API_KEY}
         onViewportChange={(nextViewport) => setViewport(nextViewport)}
-        mapStyle="mapbox://styles/jouf/cksruy2272mlv17qhkk94xpsd"
+        mapStyle={process.env.REACT_APP_STYLE}
       >
         {data &&
           data.map((item, key) => (
