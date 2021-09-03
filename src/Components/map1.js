@@ -30,8 +30,6 @@ function Map() {
 
   return (
     <div>
-      <h3 className="header">Global Vaccination Tracker</h3>
-
       <ReactMapGL
         {...viewport}
         mapboxApiAccessToken={process.env.REACT_APP_API_KEY}
