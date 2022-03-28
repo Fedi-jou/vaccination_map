@@ -5,7 +5,9 @@
 ### the map is installed and imported from : 
 1. react-map-gl 
 ### main goal of this project to use "Usecontext" hook and introduce ReactmapGl as a replacement for google maps . 
-
+### Other packages : 
+1. bootstrap / react-bootstrap 
+2. numeral
 
 # Getting Started with Create React App
 
