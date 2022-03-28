@@ -1,3 +1,12 @@
+## Corana virus vaccination map 
+### the informations are fetched from 2 Api's 
+1. https://disease.sh/v3/covid-19/countries : for countries coordination .
+2. https://disease.sh/v3/covid-19/vaccine/coverage/countries?lastdays=1&fullData=false : for number of doses given .
+### the map is installed and imported from : 
+1. react-map-gl 
+### main goal of this project to use "Usecontext" hook and introduce ReactmapGl as a replacement for google maps . 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
